@@ -1,10 +1,10 @@
 import { Accordion, AccordionSummary, Typography, AccordionDetails, Box } from "@mui/material";
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { ReactElement } from "react";
-import SectionHeader from "../components/SectionHeader";
-import SectionStack from "../components/SectionStack";
-import BackButton from "../components/BackButton";
-import SectionDescription from "../components/SectionDescription";
+import BackButton from "../../components/BackButton";
+import SectionDescription from "../../components/SectionDescription";
+import SectionHeader from "../../components/SectionHeader";
+import SectionStack from "../../components/SectionStack";
 
 function Task1(): ReactElement {
 

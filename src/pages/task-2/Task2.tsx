@@ -1,11 +1,11 @@
 import { ReactElement } from "react";
-import BackButton from "../components/BackButton";
-import MockPreview from "../components/MockPreview";
-import SectionDescription from "../components/SectionDescription";
-import SectionHeader from "../components/SectionHeader";
-import SectionStack from "../components/SectionStack";
 import MockImplementation from "./components/MockImplementation";
 import MockImage from "./assets/select_queue.png";
+import BackButton from "../../components/BackButton";
+import MockPreview from "../../components/MockPreview";
+import SectionDescription from "../../components/SectionDescription";
+import SectionHeader from "../../components/SectionHeader";
+import SectionStack from "../../components/SectionStack";
 
 function Task2(): ReactElement {
   return (

@@ -1,10 +1,12 @@
 import { ReactElement } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import AppWrapper from "./AppWrapper";
-import Home from "./home/Home";
-import Task1 from "./task-1/Task1";
-import Task2 from "./task-2/Task2";
-import Task3 from "./task-3/Task3";
+import AppWrapper from "../components/AppWrapper";
+import Home from "../pages/home/Home";
+import Task1 from "../pages/task-1/Task1";
+import Task2 from "../pages/task-2/Task2";
+import Task3 from "../pages/task-3/Task3";
+;
+
 
 export default function RoutesProvider(): ReactElement {
   return (

@@ -1,8 +1,8 @@
 import { ReactElement } from "react";
-import BackButton from "../components/BackButton";
-import SectionDescription from "../components/SectionDescription";
-import SectionHeader from "../components/SectionHeader";
-import SectionStack from "../components/SectionStack";
+import BackButton from "../../components/BackButton";
+import SectionDescription from "../../components/SectionDescription";
+import SectionHeader from "../../components/SectionHeader";
+import SectionStack from "../../components/SectionStack";
 
 function Task3(): ReactElement {
   return (

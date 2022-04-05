@@ -1,11 +1,12 @@
 import { Button } from "@mui/material";
 import { ReactElement } from "react";
-import useGoBack from "../hooks/useGoBack";
+import { useNavigate } from "react-router-dom";
+
 
 function BackButton(): ReactElement {
-  const goBack = useGoBack();
+  const navigate = useNavigate();
   
-  return (<Button onClick={goBack}>Go back</Button>);
+  return (<Button onClick={() => navigate(-1)}>Go back</Button>);
 }
 
 export default BackButton;
