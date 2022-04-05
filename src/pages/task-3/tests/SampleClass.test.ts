@@ -20,4 +20,4 @@ describe('SampleClass', () => {
     expect(secretValue).toBe(expect.objectContaining(42));
   });
 
-});
+}); 

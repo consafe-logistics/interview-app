@@ -1,8 +1,10 @@
+import { Typography } from "@mui/material";
 import { ReactElement } from "react";
 import BackButton from "../../components/BackButton";
 import SectionDescription from "../../components/SectionDescription";
 import SectionHeader from "../../components/SectionHeader";
 import SectionStack from "../../components/SectionStack";
+import SampleComponent from "./tests/SampleComponent";
 
 function Task3(): ReactElement {
   return (
@@ -15,6 +17,8 @@ function Task3(): ReactElement {
           <li>Fix tests, which do not pass.</li>
         </ul>
       </>
+      <Typography variant="h6">Sample component preview</Typography>
+      <SampleComponent />
       <BackButton />
     </SectionStack>
   );

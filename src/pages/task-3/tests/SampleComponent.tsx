@@ -18,7 +18,7 @@ function SampleComponent(): ReactElement {
 
   return (
     <>
-      <Box>
+      <Box sx={{border: '1px solid black', p: 1}}>
         <Typography>{`Clicks: ${count}`}</Typography>
         <Button onClick={() => setCount(count + 1)}>Increment</Button>
         <Button onClick={() => setIsVisible(true)}>Open Modal</Button>
